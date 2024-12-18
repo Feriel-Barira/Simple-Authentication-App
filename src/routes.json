@@ -1,0 +1,21 @@
+{
+    "users": {
+      "GET": ["admin"],      
+      "POST": ["admin"],    
+      "PUT": ["admin"],        
+      "DELETE": ["admin"]    
+    },
+    "messages": {
+      "GET": ["admin", "user"],  
+      "POST": ["admin"],          
+      "PUT": ["admin"],                  
+      "DELETE": ["admin"]       
+    },
+    "products": {
+      "GET": ["admin", "user", "guest"],  
+      "POST": ["admin"],         
+      "PUT": ["admin"],                 
+      "DELETE": ["admin"]        
+    }
+  }
+  
